@@ -1,0 +1,292 @@
+body {
+  font-family: "Montserrat";
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.container-fluid {
+  padding: 1% 15% 5%;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-align: left;
+  /* margin-bottom: 50px; */
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title  image */
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 28%;
+}
+
+/* Features sections */
+
+#features {
+  padding: 5% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1; /*not absolutely needed*/
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+.feature-box p {
+  color: #8f8f8f;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-inner {
+  padding: 3% 15%;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Press */
+
+#press {
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#press img {
+  width: 15%;
+  margin: 1%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 7% 15%;
+  padding-top: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2% 2% 3%;
+}
+
+.pricing-column:first-child {
+  padding-left: 0%;
+}
+
+.pricing-column:last-child {
+  padding-right: 0%;
+}
+
+.btn {
+  margin-top: 5em;
+}
+
+.btn-last {
+  margin-top: 3.8rem;
+}
+
+/* Call to Action */
+#cta {
+  padding: 4% 15% 1.8%;
+  background-color: #ff4c68;
+  font-family: "Montserrat";
+  text-align: center;
+  vertical-align: middle;
+}
+#cta h3 {
+  color: white;
+  font-size: 3.5rem;
+}
+/* Footer */
+footer {
+  padding: 1% 15% 1.8%;
+  text-align: center;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*Media Querry*/
+@media (max-width: 507px) {
+  .title-img {
+    padding-top: 6%;
+    width: 70%;
+  }
+  #testimonials {
+    position: relative;
+  }
+  .download-button {
+    margin: 5% 10% 5% 0;
+  }
+  .row {
+    text-align: center;
+  }
+  .col-querry-tab h1 {
+    text-align: center;
+    font-size: 2.8em;
+  }
+  #features {
+    padding: 0% 15%;
+    top: -200px;
+    position: relative;
+    z-index: 1; /*not absolutely needed*/
+  }
+
+  #testimonials h2 {
+    font-size: 1rem;
+  }
+
+  #cta h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 824px) {
+  .pricing-column h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .title-img {
+    transform: rotate(0);
+    position: static;
+  }
+
+  .row {
+    text-align: center;
+  }
+  .col-querry-tab h1 {
+    text-align: center;
+  }
+  #features {
+    padding: 0% 15%;
+    top: -300px;
+    position: relative;
+    z-index: 1; /*not absolutely needed*/
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1042px) {
+  .title-img {
+    transform: rotate(0);
+    position: static;
+    padding-top: 6%;
+  }
+
+  .download-button {
+    margin: 5% 0% 5% 0;
+  }
+
+  .row {
+    text-align: center;
+  }
+  .col-querry-tab h1 {
+    text-align: center;
+  }
+  #features {
+    padding: 0% 15%;
+    top: -300px;
+    position: relative;
+    z-index: 1; /*not absolutely needed*/
+  }
+
+  .card h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1043px) {
+  .card h2 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1070px) {
+  .title-img {
+    transform: rotate(0);
+    padding-top: 6%;
+  }
+}
+
+@media (min-width: 2453px) {
+  .title-img {
+    padding-top: 6%;
+  }
+  #testimonials {
+    position: relative;
+  }
+}
